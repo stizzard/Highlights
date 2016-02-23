@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Sarah\Documents\GitHub\Highlights\QuizBuilder\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Sarah\Documents\GitHub\Highlights\QuizBuilder\app\build\intermediates\pre-dexed\debug\classes-94bccdbd6d8db0f2ad559513b00d03dda565d543.jar" />
+    </item>
+    <item
+        jar="Z:\NSCC\21_fall2015\APPD2000\AndroidStudioProjects\QuizBuilder\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="Z:\NSCC\21_fall2015\APPD2000\AndroidStudioProjects\QuizBuilder\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-0ba145aef5b9ec1155925a6f46b9f79d8cad0af8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sarah\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="Z:\NSCC\21_fall2015\APPD2000\AndroidStudioProjects\QuizBuilder\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-5dcfe36fc58baede1c2d13909d7d036385394e21.jar" />
+    </item>
+    <item
+        jar="Z:\NSCC\21_fall2015\APPD2000\AndroidStudioProjects\QuizBuilder\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="Z:\NSCC\21_fall2015\APPD2000\AndroidStudioProjects\QuizBuilder\app\build\intermediates\pre-dexed\debug\classes-6473fd3ded1ed17160e1b3c1cc1e238b43dc6380.jar" />
+    </item>
+    <item
+        jar="Z:\NSCC\21_fall2015\APPD2000\AndroidStudioProjects\QuizBuilder\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="Z:\NSCC\21_fall2015\APPD2000\AndroidStudioProjects\QuizBuilder\app\build\intermediates\pre-dexed\debug\classes-46667a9a552633401147309edd219f7f7568e376.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sarah\Documents\GitHub\Highlights\QuizBuilder\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Sarah\Documents\GitHub\Highlights\QuizBuilder\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-0e3d04eac8815aa12d4d567eb178ec31e4b30e7c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sarah\Documents\GitHub\Highlights\QuizBuilder\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Sarah\Documents\GitHub\Highlights\QuizBuilder\app\build\intermediates\pre-dexed\debug\classes-efb6517cebdf0654c6b1027b3d97d3fed2def9c1.jar" />
+    </item>
+
+</items>
