@@ -1,2 +1,2 @@
 # Highlights
-collection of complete projects
+A collection of completed projects
