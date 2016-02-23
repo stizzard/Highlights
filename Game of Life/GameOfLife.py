@@ -43,7 +43,7 @@ def game():
 
     num_gen = input(print("How many generations?"))
     while is_int(num_gen) is False:
-        num_gen = input(print("Please enter a number"))
+        num_gen = input(print("Please enter a number "))
 
     for i in range(0, int(num_gen)):
         generation_cycle()
