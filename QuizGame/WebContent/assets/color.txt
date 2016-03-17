@@ -1,0 +1,8 @@
+1:what color is grass?:blue:red:green:pink:green
+2:what color is the sky?:blue:red:green:pink:blue
+3:what color is a brick?:blue:red:white:yellow:red
+4:what color is a frog?:blue:red:pink:green:green
+5:what color is a flamingo?:yellow:red:green:pink:pink
+6:what color is the sun?:blue:white:green:yellow:yellow
+7:what color is a cloud?:yellow:blue:green:white:white
+8:what color is a banana?:blue:yellow:green:pink:yellow

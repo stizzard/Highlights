@@ -1,0 +1,8 @@
+1:what number is the highest?:1:2:3:4:4
+2:what number is the highest?:123:456:789:12:789
+3:what number is the highest?:44:33:22:11:44
+4:what number is the highest?:1:555:867:5309:5309
+5:what number is the highest?:23:34:45:80:80
+6:what number is the highest?:99:66:33:0:99
+7:what number is the highest?:11:2486:342:687:2486
+8:what number is the highest?:86:44:55:41:86
