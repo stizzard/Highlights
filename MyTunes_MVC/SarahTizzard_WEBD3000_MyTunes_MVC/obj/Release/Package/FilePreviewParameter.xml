@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="w0233503MyTunes" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\NSCCSTUDENT\\Source\\Repos\\w0233503\\SarahTizzard_WEBD3000_MyTunes_MVC\\SarahTizzard_WEBD3000_MyTunes_MVC\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\NSCCSTUDENT\\Source\\Repos\\w0233503\\SarahTizzard_WEBD3000_MyTunes_MVC\\SarahTizzard_WEBD3000_MyTunes_MVC\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="w0233503MyTunes/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\NSCCSTUDENT\\Source\\Repos\\w0233503\\SarahTizzard_WEBD3000_MyTunes_MVC\\SarahTizzard_WEBD3000_MyTunes_MVC\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="MyTunesContext-Web.config Connection String" description="" value="Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=SarahTizzard_WEBD3000_MyTunes_MVC_db;User ID=w0233503@nscc.ca;Password=samuelsox_4;Connect Timeout=30" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\NSCCSTUDENT\\Source\\Repos\\w0233503\\SarahTizzard_WEBD3000_MyTunes_MVC\\SarahTizzard_WEBD3000_MyTunes_MVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyTunesContext']/@connectionString" />
+  </parameter>
+</parameters>

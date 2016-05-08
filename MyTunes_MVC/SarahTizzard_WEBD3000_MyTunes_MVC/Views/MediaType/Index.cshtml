@@ -1,0 +1,47 @@
+﻿@*@model IEnumerable<SarahTizzard_WEBD3000_MyTunes_MVC.Models.MediaType>*@
+@model PagedList.IPagedList<SarahTizzard_WEBD3000_MyTunes_MVC.Models.MediaType>
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Media Type Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Media Type", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Media Category", "Index", new { sortOrder = ViewBag.IdSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MediaCategory.Name)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MediaTypeId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MediaTypeId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MediaTypeId })
+        </td>
+    </tr>
+}
+
+</table>
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

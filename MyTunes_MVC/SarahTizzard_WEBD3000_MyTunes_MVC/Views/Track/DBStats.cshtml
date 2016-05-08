@@ -1,0 +1,95 @@
+﻿@model IEnumerable<SarahTizzard_WEBD3000_MyTunes_MVC.Models.Track>
+
+@{
+        ViewBag.Title = "DBStats";
+}
+
+
+<div>
+    <h4>Content Statistics</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Total Tracks:
+        </dt>
+
+        <dd>
+            @ViewBag.TotalTracks
+        </dd>
+
+        <dt>
+            Total Artists:
+        </dt>
+
+        <dd>
+            @ViewBag.TotalArtists
+        </dd>
+
+        <dt>
+            Total Albums:
+        </dt>
+
+        <dd>
+            @ViewBag.TotalAlbums
+        </dd>
+
+        <dt>
+            Largest Track:
+        </dt>
+
+        <dd>
+            @ViewBag.LargestTrack
+        </dd>
+
+        <dt>
+            Longest Track:
+        </dt>
+
+        <dd>
+            @ViewBag.LongestTrack
+        </dd>
+
+
+        <dt>
+            Genres:
+        </dt>
+        @foreach(var item in ViewBag.Genres)
+        {
+            <dd>
+                @Html.DisplayFor(modelItem => item)
+            </dd>
+        }
+
+        <dt>
+            Media Types:
+        </dt>
+        @foreach (var item in ViewBag.MediaTypes)
+        {
+            <dd>
+                @Html.DisplayFor(modelItem => item)
+            </dd>
+        }
+
+        <dt>
+            Media Categories:
+        </dt>
+        @foreach (var item in ViewBag.MediaTypes)
+        {
+            <dd>
+                @Html.DisplayFor(modelItem => item)
+            </dd>
+        }
+        
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+
+</div>

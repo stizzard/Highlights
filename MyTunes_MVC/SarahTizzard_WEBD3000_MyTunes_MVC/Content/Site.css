@@ -1,0 +1,78 @@
+﻿body {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #888888;
+}
+
+h1 {
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+
+p, p.lead {
+     font-size: 1em;
+}
+
+input, select {
+    color:black;
+}
+
+.error {
+    background-color: red;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 25px auto;
+    color: white;
+    width: 80%;
+}
+ /*table, th, tr { border-spacing:0; border:1px solid gray;}*/
+
+#Image1 {
+    width: 100%;
+}
+
+.jumbotron {
+    background-color: black;
+}
+input[type="submit"] {
+    color: black;
+}
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    color: #bbbbbb;
+    border-top: 1px solid #222222;
+}
+.pagination > li > a, .pagination > li > span, .pagination > .disabled > a {
+    background-color: #101010;
+    border: 1px solid rgba(66, 139, 202, 0.2);
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover {
+    background-color: rgba(66, 139, 202, 0.4);
+    color: #ffffff;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}

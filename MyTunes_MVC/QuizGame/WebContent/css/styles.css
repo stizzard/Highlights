@@ -1,0 +1,38 @@
+body {
+	font-family: 'Ariel', sans-serif;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: inline;
+}
+
+.basic {
+	background: white;
+}
+
+#quizArea div {
+	
+}
+
+#quizSelection{
+	width:80%;
+	margin: 0 auto;
+}
+
+#ctrlArea{
+	width:80%;
+	height:600px;
+	margin: 0 auto;
+}
+
+#quizArea {
+	width: 80%;
+	margin: 25px auto;
+	border: 2px solid #333;
+	height: 300px;
+	overflow-y: scroll;
+}

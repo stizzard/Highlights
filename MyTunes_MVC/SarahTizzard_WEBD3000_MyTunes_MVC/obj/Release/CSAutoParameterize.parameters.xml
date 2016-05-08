@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MyTunesContext-Web.config Connection String" description="MyTunesContext Connection String used in web.config by the application to access the database." defaultValue="data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\MyTunes.mdf;integrated security=True;connect timeout=30;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\NSCCSTUDENT\\Source\\Repos\\w0233503\\SarahTizzard_WEBD3000_MyTunes_MVC\\SarahTizzard_WEBD3000_MyTunes_MVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyTunesContext']/@connectionString" />
+  </parameter>
+</parameters>

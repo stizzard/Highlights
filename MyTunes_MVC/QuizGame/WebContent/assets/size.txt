@@ -1,0 +1,8 @@
+1:which is biggest?:elephant:frog:car:bicycle:elephant
+2:which is biggest?:fly:frog:giraffe:bicycle:giraffe
+3:which is biggest?:deer:frog:car:bicycle:car
+4:which is biggest?:cruise ship:frog:car:bicycle:cruise ship
+5:which is smallest?:fly:frog:car:bike:fly
+6:which is smallest?:pencil:desk:lion:ant:ant
+7:which is smallest?:laptop:banana:moose:chair:banana
+8:which is smallest?:caribou:frog:car:moose:frog

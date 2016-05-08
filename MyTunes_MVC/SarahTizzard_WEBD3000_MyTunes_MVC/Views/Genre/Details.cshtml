@@ -1,0 +1,44 @@
+﻿@model SarahTizzard_WEBD3000_MyTunes_MVC.ViewModels.GenreDetailsData
+@using PagedList.Mvc;
+
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<h2>Details</h2>
+
+<div>
+    <h4>Genre</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(modelItem => modelItem.Genre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(modelItem => modelItem.Genre.Name)
+        </dd>
+
+        <dt>
+            Tracks
+        </dt>
+
+        @foreach (var item in Model.Tracks)
+        {
+            <dd>@Html.DisplayFor(modelItem => item.Name)</dd>
+        }
+    </dl>
+
+</div>
+
+Page @(Model.Tracks.PageCount < Model.Tracks.PageNumber ? 0 : Model.Tracks.PageNumber) of @Model.Tracks.PageCount
+@Html.PagedListPager(Model.Tracks, page => Url.Action("Details", new { page }))
+
+<br />
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Genre.GenreId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

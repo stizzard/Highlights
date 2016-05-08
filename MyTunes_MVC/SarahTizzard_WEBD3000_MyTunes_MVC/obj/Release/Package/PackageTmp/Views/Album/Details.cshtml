@@ -1,0 +1,46 @@
+﻿@model SarahTizzard_WEBD3000_MyTunes_MVC.Models.Album
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Album</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArtistId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArtistId)
+        </dd>
+
+        <dt>
+            Tracks
+        </dt>
+
+        @foreach (var item in Model.Tracks.OrderBy(item=>item.Name))
+        {          
+
+            <dd>
+                @Html.DisplayFor(model => item.Name)
+            </dd>
+        }
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AlbumId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

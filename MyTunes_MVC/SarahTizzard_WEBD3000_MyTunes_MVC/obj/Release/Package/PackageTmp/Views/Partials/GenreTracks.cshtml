@@ -1,0 +1,19 @@
+﻿@*@model SarahTizzard_WEBD3000_MyTunes_MVC.Models.Track*@
+@model PagedList.IPagedList<SarahTizzard_WEBD3000_MyTunes_MVC.Models.Track>
+@using PagedList.Mvc;
+
+<dt>
+    Tracks
+</dt>
+
+@foreach (var item in Model)
+{
+    if (item.GenreId == @ViewBag.GenreId) { };
+    <dd>
+        @*@Html.DisplayName("Name");*@
+        @Html.DisplayFor(model => item.Name)
+    </dd>
+}
+
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page }))

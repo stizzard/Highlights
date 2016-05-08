@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sarah.quizbuilder.GameActivity"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDefinition"
+        android:id="@+id/tvDefinition"
+        android:textColor="#fff2cc"
+        android:hapticFeedbackEnabled="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTouchToSelect"
+        android:id="@+id/tvTouchToSelect"
+        android:textColor="#ffd966"
+        android:hapticFeedbackEnabled="true"
+        android:textSize="12sp"
+        android:typeface="sans"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="250dp" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/btnWordOne"
+        android:textSize="14sp"
+        android:id="@+id/btnWordOne"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/tvTouchToSelect"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffc000"
+        android:layout_marginEnd="5dp" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/btnWordThree"
+        android:id="@+id/btnWordThree"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_above="@+id/btnWordTwo"
+        android:layout_toRightOf="@+id/btnWordOne"
+        android:layout_toEndOf="@+id/btnWordOne"
+        android:background="#ffc000"
+        android:clickable="true"
+        android:textSize="14sp"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/btnWordTwo"
+        android:id="@+id/btnWordTwo"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/btnWordOne"
+        android:layout_alignLeft="@+id/btnWordOne"
+        android:layout_alignStart="@+id/btnWordOne"
+        android:background="#ffc000"
+        android:textSize="14sp" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/btnWordFour"
+        android:id="@+id/btnWordFour"
+        android:layout_alignTop="@+id/btnWordTwo"
+        android:layout_alignLeft="@+id/btnWordThree"
+        android:layout_alignStart="@+id/btnWordThree"
+        android:background="#ffc000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvName"
+        android:id="@+id/tvName"
+        android:textColor="#ffd966"
+        android:hapticFeedbackEnabled="true"
+        android:textSize="14sp"
+        android:typeface="sans"
+        android:layout_marginTop="35dp"
+        android:gravity="end"
+        android:layout_below="@+id/btnWordFour"
+        android:layout_toLeftOf="@+id/tvScore"
+        android:layout_toStartOf="@+id/tvScore" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvScore"
+        android:id="@+id/tvScore"
+        android:textColor="#ffd966"
+        android:hapticFeedbackEnabled="true"
+        android:textSize="14sp"
+        android:typeface="sans"
+        android:layout_alignTop="@+id/tvName"
+        android:layout_alignRight="@+id/tvTouchToSelect"
+        android:layout_alignEnd="@+id/tvTouchToSelect" />
+
+    <Button
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:text="@string/btnReset"
+        android:textSize="12sp"
+        android:id="@+id/btnReset"
+        android:background="#323232"
+        android:layout_alignBottom="@+id/tvName"
+        android:layout_alignLeft="@+id/btnWordTwo"
+        android:layout_alignStart="@+id/btnWordTwo"
+        android:textColor="#FFF2CC"
+        android:textAllCaps="false"
+
+        android:onClick="restart"
+        />
+
+</RelativeLayout>
