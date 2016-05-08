@@ -8,6 +8,13 @@ A collection of completed projects
   <tbody>
     <tr>
       <td>
+        Cache Cash
+      </td>
+      <td>
+        jQuery
+      </td>
+    </tr><tr>
+      <td>
         Game of Life
       </td>
       <td>
@@ -15,6 +22,14 @@ A collection of completed projects
       </td>
     </tr>
     <tr>
+      <td>
+        MyTunes
+      </td>
+      <td>
+        ASP.NET
+      </td>
+    </tr>
+	<tr>
       <td>
         Quiz Builder
       </td>
