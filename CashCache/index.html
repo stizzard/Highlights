@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<title>Cash Cache</title>
+</head>
+<body>
+<!--<form method="post" name="tasktitleform" action="">-->
+    <!--<div class="title"></div>-->
+    <!--<input class="tasktitle" id="tasktitle" name="tasktitle" type="text" value="Task name..." onfocus="if (this.value == 'Task name...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Task name...';}" />-->
+    <!--<input class="save" value="Save" type="button" />-->
+<!--</form>-->
+
+	
+	<h1>Cash Cache</h1>
+	<button type="button" class="btn btn-default" id="dataDisplay">Show All Data</button>
+	<button type="button" class="btn btn-default" id="zipAverage">Show Avg Income in Zip</button>
+	<button type="button" class="btn btn-default" id="incomeAgeRange">Show Avg Income in Age Range</button>
+	<button type="button" class="btn btn-default" id="addEntry">Add Entry</button>
+	
+	<hr>
+	
+	
+	<form  role="form" name="addEntry" action="assets/data-file2-2.json" method="post" class="hide" id="addForm">
+		<div class="form-group col-sm-4">
+			<label for="name">Name:</label>
+		  	<input type="text" class="form-control" id="name" name="name">
+		</div>
+		<div class="form-group col-sm-4">
+			<label for="phone">Phone:</label>
+		  	<input type="tel" class="form-control" id="phone" name="phone">
+		</div>
+		<div class="form-group col-sm-4">
+			<label for="email">Email:</label>
+		  	<input type="email" class="form-control" id="email" name="email">
+		</div>		<div class="form-group col-sm-4">
+			<label for="zip">Zip:</label>
+		  	<input type="text" class="form-control" id="zip" name="zip">
+		</div>
+		<div class="form-group col-sm-4">
+			<label for="income">Income:</label>
+		  	<input type="number" class="form-control" id="income" name="income">
+		</div>
+		<div class="form-group col-sm-4">
+		  	<label for="age">Age:</label>
+		  	<input type="number" class="form-control" id="age" name="age">
+		</div>
+		<button type="submit" class="btn btn-default btn-primary" id="submitEntry">Submit</button>
+	</form>
+	<!-- <form action="assets/data-file2.json" method="get" class="hide" id="addForm">
+		Name: <input type="text" name="name"><br>
+		Phone: <input type="tel" name="phone"><br>
+		Email: <input type="email" name="email"><br>
+		Zip: <input type="text" name="zip"><br>
+		Income: <input type="number" name="income"><br>
+		Age: <input type="number" name="age"><br>
+		<input type="submit" value="Submit" id="submitEntry">
+	</form> -->
+	
+	<table class="table table-hover hide" id="dataTable">
+		<tr>
+			<th>Name</th>
+			<th>Phone</th>
+			<th>Email</th>
+			<th>Zip</th>
+			<th>Income</th>
+			<th>Age</th>
+		</tr>
+	</table>
+	
+	<p class="hide" id="highestAvgIncome"></p>
+	<p class="hide" id="lowestAvgIncome"></p>
+	<table class="table table-hover hide" id="zipAvgTable">
+		<tr>
+			<th>Zip</th>
+			<th>Average Income</th>
+		</tr>
+	</table>
+	
+	<div class="hide" id="chartContainer" style="height: 300px; width: 100%;"></div>
+		
+	<script src="http://code.jquery.com/jquery-2.2.0.js"></script>
+	<!--<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>-->
+	<script src="js/canvasjs.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
+
+
